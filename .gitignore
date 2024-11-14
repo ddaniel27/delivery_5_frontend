@@ -1,0 +1,50 @@
+# Dependencias de Node.js
+node_modules/
+# Salida de compilación
+build/
+dist/
+
+# Archivos de configuración de paquetes
+.env
+.env.local
+.env.*.local
+.eslintcache
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configuración de editores
+.vscode/
+.idea/
+*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos de configuración de herramientas de testing
+coverage/
+jest.config.js
+jest.setup.js
+__tests__/
+__mocks__/
+
+# Archivos de configuración de navegadores
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación de producción y configuración
+*.cache
+public/
+
+# Archivos de configuración de la herramienta React DevTools
+*.bak
+
+# Otros archivos innecesarios
+*.log
+out/
+tmp/
+
